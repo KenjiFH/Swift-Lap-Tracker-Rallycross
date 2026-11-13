@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA1A01E2F6626BC00C0050D /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A01D2F6626BC00C0050D /* FirebaseAI */; };
+		BFA1A0202F6626BC00C0050D /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A01F2F6626BC00C0050D /* FirebaseAILogic */; };
+		BFA1A0222F6626BC00C0050D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0212F6626BC00C0050D /* FirebaseAnalytics */; };
+		BFA1A0242F6626BC00C0050D /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0232F6626BC00C0050D /* FirebaseAnalyticsCore */; };
+		BFA1A0262F6626BC00C0050D /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0252F6626BC00C0050D /* FirebaseAnalyticsIdentitySupport */; };
+		BFA1A02F2F6629ED00C0050D /* GTMSessionFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A02E2F6629ED00C0050D /* GTMSessionFetcher */; };
+		BFA1A0312F6629ED00C0050D /* GTMSessionFetcherCore in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0302F6629ED00C0050D /* GTMSessionFetcherCore */; };
+		BFA1A0332F6629ED00C0050D /* GTMSessionFetcherFull in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0322F6629ED00C0050D /* GTMSessionFetcherFull */; };
+		BFA1A0352F6629ED00C0050D /* GTMSessionFetcherLogView in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0342F6629ED00C0050D /* GTMSessionFetcherLogView */; };
+		BFA1A0382F662A5400C0050D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0372F662A5400C0050D /* FirebaseStorage */; };
+		BFA1A03A2F662A5A00C0050D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A0392F662A5A00C0050D /* FirebaseFirestore */; };
+		BFA1A03C2F662BC900C0050D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = BFA1A03B2F662BC900C0050D /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB379E62E246FAF000F6224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB379CD2E246FAE000F6224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB379D42E246FAE000F6224;
+			remoteInfo = "Apexiel Proj1";
+		};
+		BFB379F02E246FAF000F6224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB379CD2E246FAE000F6224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB379D42E246FAE000F6224;
+			remoteInfo = "Apexiel Proj1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB379D52E246FAE000F6224 /* Apexiel Proj1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apexiel Proj1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB379E52E246FAF000F6224 /* Apexiel Proj1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apexiel Proj1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB379EF2E246FAF000F6224 /* Apexiel Proj1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apexiel Proj1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF1659092F2ADC4300175B8F /* Exceptions for "Apexiel Proj1UITests" folder in "Apexiel Proj1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ScrubberTest.swift,
+				ScrubberView2.swift,
+				TelemetryTestView.swift,
+			);
+			target = BFB379D42E246FAE000F6224 /* Apexiel Proj1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BFB379D72E246FAE000F6224 /* Apexiel Proj1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Apexiel Proj1";
+			sourceTree = "<group>";
+		};
+		BFB379E82E246FAF000F6224 /* Apexiel Proj1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Apexiel Proj1Tests";
+			sourceTree = "<group>";
+		};
+		BFB379F22E246FAF000F6224 /* Apexiel Proj1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF1659092F2ADC4300175B8F /* Exceptions for "Apexiel Proj1UITests" folder in "Apexiel Proj1" target */,
+			);
+			path = "Apexiel Proj1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB379D22E246FAE000F6224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA1A0312F6629ED00C0050D /* GTMSessionFetcherCore in Frameworks */,
+				BFA1A02F2F6629ED00C0050D /* GTMSessionFetcher in Frameworks */,
+				BFA1A0202F6626BC00C0050D /* FirebaseAILogic in Frameworks */,
+				BFA1A0382F662A5400C0050D /* FirebaseStorage in Frameworks */,
+				BFA1A0262F6626BC00C0050D /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				BFA1A01E2F6626BC00C0050D /* FirebaseAI in Frameworks */,
+				BFA1A0352F6629ED00C0050D /* GTMSessionFetcherLogView in Frameworks */,
+				BFA1A0332F6629ED00C0050D /* GTMSessionFetcherFull in Frameworks */,
+				BFA1A0222F6626BC00C0050D /* FirebaseAnalytics in Frameworks */,
+				BFA1A03C2F662BC900C0050D /* FirebaseCrashlytics in Frameworks */,
+				BFA1A03A2F662A5A00C0050D /* FirebaseFirestore in Frameworks */,
+				BFA1A0242F6626BC00C0050D /* FirebaseAnalyticsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB379E22E246FAF000F6224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB379EC2E246FAF000F6224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA1A0362F662A5400C0050D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB379CC2E246FAE000F6224 = {
+			isa = PBXGroup;
+			children = (
+				BFB379D72E246FAE000F6224 /* Apexiel Proj1 */,
+				BFB379E82E246FAF000F6224 /* Apexiel Proj1Tests */,
+				BFB379F22E246FAF000F6224 /* Apexiel Proj1UITests */,
+				BFA1A0362F662A5400C0050D /* Frameworks */,
+				BFB379D62E246FAE000F6224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB379D62E246FAE000F6224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB379D52E246FAE000F6224 /* Apexiel Proj1.app */,
+				BFB379E52E246FAF000F6224 /* Apexiel Proj1Tests.xctest */,
+				BFB379EF2E246FAF000F6224 /* Apexiel Proj1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB379D42E246FAE000F6224 /* Apexiel Proj1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB379F92E246FAF000F6224 /* Build configuration list for PBXNativeTarget "Apexiel Proj1" */;
+			buildPhases = (
+				BFB379D12E246FAE000F6224 /* Sources */,
+				BFB379D22E246FAE000F6224 /* Frameworks */,
+				BFB379D32E246FAE000F6224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BFB379D72E246FAE000F6224 /* Apexiel Proj1 */,
+			);
+			name = "Apexiel Proj1";
+			packageProductDependencies = (
+				BFA1A01D2F6626BC00C0050D /* FirebaseAI */,
+				BFA1A01F2F6626BC00C0050D /* FirebaseAILogic */,
+				BFA1A0212F6626BC00C0050D /* FirebaseAnalytics */,
+				BFA1A0232F6626BC00C0050D /* FirebaseAnalyticsCore */,
+				BFA1A0252F6626BC00C0050D /* FirebaseAnalyticsIdentitySupport */,
+				BFA1A02E2F6629ED00C0050D /* GTMSessionFetcher */,
+				BFA1A0302F6629ED00C0050D /* GTMSessionFetcherCore */,
+				BFA1A0322F6629ED00C0050D /* GTMSessionFetcherFull */,
+				BFA1A0342F6629ED00C0050D /* GTMSessionFetcherLogView */,
+				BFA1A0372F662A5400C0050D /* FirebaseStorage */,
+				BFA1A0392F662A5A00C0050D /* FirebaseFirestore */,
+				BFA1A03B2F662BC900C0050D /* FirebaseCrashlytics */,
+			);
+			productName = "Apexiel Proj1";
+			productReference = BFB379D52E246FAE000F6224 /* Apexiel Proj1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB379E42E246FAF000F6224 /* Apexiel Proj1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB379FC2E246FAF000F6224 /* Build configuration list for PBXNativeTarget "Apexiel Proj1Tests" */;
+			buildPhases = (
+				BFB379E12E246FAF000F6224 /* Sources */,
+				BFB379E22E246FAF000F6224 /* Frameworks */,
+				BFB379E32E246FAF000F6224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB379E72E246FAF000F6224 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BFB379E82E246FAF000F6224 /* Apexiel Proj1Tests */,
+			);
+			name = "Apexiel Proj1Tests";
+			packageProductDependencies = (
+			);
+			productName = "Apexiel Proj1Tests";
+			productReference = BFB379E52E246FAF000F6224 /* Apexiel Proj1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB379EE2E246FAF000F6224 /* Apexiel Proj1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB379FF2E246FAF000F6224 /* Build configuration list for PBXNativeTarget "Apexiel Proj1UITests" */;
+			buildPhases = (
+				BFB379EB2E246FAF000F6224 /* Sources */,
+				BFB379EC2E246FAF000F6224 /* Frameworks */,
+				BFB379ED2E246FAF000F6224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB379F12E246FAF000F6224 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BFB379F22E246FAF000F6224 /* Apexiel Proj1UITests */,
+			);
+			name = "Apexiel Proj1UITests";
+			packageProductDependencies = (
+			);
+			productName = "Apexiel Proj1UITests";
+			productReference = BFB379EF2E246FAF000F6224 /* Apexiel Proj1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB379CD2E246FAE000F6224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BFB379D42E246FAE000F6224 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFB379E42E246FAF000F6224 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BFB379D42E246FAE000F6224;
+					};
+					BFB379EE2E246FAF000F6224 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BFB379D42E246FAE000F6224;
+					};
+				};
+			};
+			buildConfigurationList = BFB379D02E246FAE000F6224 /* Build configuration list for PBXProject "Apexiel Proj1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB379CC2E246FAE000F6224;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BFA1A02D2F6629ED00C0050D /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BFB379D62E246FAE000F6224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB379D42E246FAE000F6224 /* Apexiel Proj1 */,
+				BFB379E42E246FAF000F6224 /* Apexiel Proj1Tests */,
+				BFB379EE2E246FAF000F6224 /* Apexiel Proj1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB379D32E246FAE000F6224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB379E32E246FAF000F6224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB379ED2E246FAF000F6224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB379D12E246FAE000F6224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB379E12E246FAF000F6224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB379EB2E246FAF000F6224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB379E72E246FAF000F6224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB379D42E246FAE000F6224 /* Apexiel Proj1 */;
+			targetProxy = BFB379E62E246FAF000F6224 /* PBXContainerItemProxy */;
+		};
+		BFB379F12E246FAF000F6224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB379D42E246FAE000F6224 /* Apexiel Proj1 */;
+			targetProxy = BFB379F02E246FAF000F6224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFB379F72E246FAF000F6224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB379F82E246FAF000F6224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB379FA2E246FAF000F6224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apexiel Proj1/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MG964W7TJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Apexiel-Proj1-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Apexiel RX";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app tracks location even when in the background for driving analysis.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app uses location to show your driving path on a map even when in background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to detect turns and show them on a map.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion data to analyze driving turns.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.Apexiel-Proj1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB379FB2E246FAF000F6224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apexiel Proj1/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MG964W7TJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Apexiel-Proj1-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Apexiel RX";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app tracks location even when in the background for driving analysis.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app uses location to show your driving path on a map even when in background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to detect turns and show them on a map.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion data to analyze driving turns.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.Apexiel-Proj1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFB379FD2E246FAF000F6224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG964W7TJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.Apexiel-Proj1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apexiel Proj1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apexiel Proj1";
+			};
+			name = Debug;
+		};
+		BFB379FE2E246FAF000F6224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG964W7TJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.Apexiel-Proj1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apexiel Proj1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apexiel Proj1";
+			};
+			name = Release;
+		};
+		BFB37A002E246FAF000F6224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG964W7TJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.Apexiel-Proj1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apexiel Proj1";
+			};
+			name = Debug;
+		};
+		BFB37A012E246FAF000F6224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG964W7TJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.Apexiel-Proj1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apexiel Proj1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB379D02E246FAE000F6224 /* Build configuration list for PBXProject "Apexiel Proj1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB379F72E246FAF000F6224 /* Debug */,
+				BFB379F82E246FAF000F6224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB379F92E246FAF000F6224 /* Build configuration list for PBXNativeTarget "Apexiel Proj1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB379FA2E246FAF000F6224 /* Debug */,
+				BFB379FB2E246FAF000F6224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB379FC2E246FAF000F6224 /* Build configuration list for PBXNativeTarget "Apexiel Proj1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB379FD2E246FAF000F6224 /* Debug */,
+				BFB379FE2E246FAF000F6224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB379FF2E246FAF000F6224 /* Build configuration list for PBXNativeTarget "Apexiel Proj1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB37A002E246FAF000F6224 /* Debug */,
+				BFB37A012E246FAF000F6224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+		BFA1A02D2F6629ED00C0050D /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/gtm-session-fetcher.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFA1A01D2F6626BC00C0050D /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		BFA1A01F2F6626BC00C0050D /* FirebaseAILogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAILogic;
+		};
+		BFA1A0212F6626BC00C0050D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BFA1A0232F6626BC00C0050D /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		BFA1A0252F6626BC00C0050D /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		BFA1A02E2F6629ED00C0050D /* GTMSessionFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A02D2F6629ED00C0050D /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcher;
+		};
+		BFA1A0302F6629ED00C0050D /* GTMSessionFetcherCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A02D2F6629ED00C0050D /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherCore;
+		};
+		BFA1A0322F6629ED00C0050D /* GTMSessionFetcherFull */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A02D2F6629ED00C0050D /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherFull;
+		};
+		BFA1A0342F6629ED00C0050D /* GTMSessionFetcherLogView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A02D2F6629ED00C0050D /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherLogView;
+		};
+		BFA1A0372F662A5400C0050D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		BFA1A0392F662A5A00C0050D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BFA1A03B2F662BC900C0050D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA1A01C2F6625C500C0050D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFB379CD2E246FAE000F6224 /* Project object */;
+}
