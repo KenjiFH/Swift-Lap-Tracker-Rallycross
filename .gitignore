@@ -1,0 +1,44 @@
+# ==========================================
+# Standard .gitignore Template for Xcode
+# ==========================================
+
+# --- macOS Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+# --- Xcode User Settings & Build Artifacts ---
+xcuserdata/
+DerivedData/
+build/
+*.hmap
+
+# --- Xcode Project & Workspace Files ---
+# Keeps necessary structural files while blocking user-specific tweaks
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# --- App Packaging ---
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# --- Swift Package Manager ---
+.build/
+.swiftpm/
+# Uncomment the line below if you want to exclude local Package.resolved pinning
+# Package.resolved
+
+# --- CocoaPods ---
+# Note: Keep Pods/ commented out if your team checks dependencies into Git.
+# Pods/
+
+# --- Carthage ---
+Carthage/Build/
